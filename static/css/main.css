@@ -1,0 +1,103 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6, 
+form,fieldset,input,textarea,p,th,td { 
+    padding: 0; 
+    margin: 0; 
+} 
+table { 
+    border-collapse: collapse; 
+    border-spacing: 0; 
+} 
+fieldset,img { 
+    border: 0; 
+} 
+address,caption,cite,code,dfn,em,strong,th,var { 
+    font-weight: normal; 
+    font-style: normal; 
+} 
+ol,ul { 
+    list-style: none; 
+} 
+caption,th { 
+    text-align: left; 
+} 
+h1,h2,h3,h4,h5,h6 { 
+    font-weight: normal; 
+    font-size: 100%; 
+} 
+q:before,q:after { 
+    content:”; 
+} 
+abbr,acronym { 
+    border: 0; 
+}
+
+body{
+    font: 13px/1.231 Helvetica, Arial, sans-serif;
+    color: #444444;
+    line-height: 1;
+}
+
+.wrap{
+	max-width: 980px;
+	margin: 0 auto;
+}
+.header{
+	background-color: #4e4e4e;
+}
+.header ul{
+	overflow: hidden;
+}
+.header li{
+	float:left;
+	height:60px;
+	line-height: 60px;
+	text-align: center;
+	width:120px;
+}
+.header li:hover,.header li.active{
+	border-bottom:4px solid #333;
+}
+.header li.active a{
+	color:#fefefe;
+}
+.header li a{
+	cursor: pointer;
+	display: inline-block;
+	color:#aaa;
+	width:100%;
+	height:100%;
+	font-size: 18px;
+}
+.header li a:hover{
+	text-decoration: underline;
+	color:#fefefe;
+}
+/*http://img.chinaz.com/images/tags_03.gif*/
+.makedown_container .box{
+	border-top:1px solid #ddd;
+}
+.box .title {
+	margin:20px 0;
+}
+.box .title a{
+	color:#000;
+}
+.box .title a:hover{
+	color:#d81517;
+}
+.box p{
+	color:#888;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.box .box_footer span{
+	margin-right:20px;
+	color:#999;
+}
+.tag_icon{
+	background: url(http://img.chinaz.com/images/tags_03.gif) no-repeat center left;
+	display: inline-block;
+	height:20px;
+	width:16px;
+	vertical-align: -6px;
+}
